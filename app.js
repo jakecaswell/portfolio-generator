@@ -22,7 +22,7 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'github',
-            message: 'Enter your GitHub Username',
+            message: 'Enter your GitHub Username (Required)',
             validate: nameInput => {
                 if (nameInput) {
                   return true;
